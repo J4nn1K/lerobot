@@ -1,3 +1,21 @@
+## Jannik's Notes
+Since ffmpeg caused issues with PyAV
+```
+conda install -y -c conda-forge ffmpeg
+```
+
+[Arm Symlink Setup](https://docs.trossenrobotics.com/aloha_docs/getting_started/mobile/software_setup.html#arm-symlink-setup)
+
+Launch
+```
+python lerobot/scripts/control_robot.py teleoperate \     
+--robot-path lerobot/configs/robot/aloha_solo.yaml \   
+--robot-overrides max_relative_target=null
+```
+
+
+
+# LeRobot' Readme:
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="media/lerobot-logo-thumbnail.png">
